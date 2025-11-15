@@ -1,0 +1,30 @@
+<ThingDefs><List>
+	
+	
+	<ThingDef Type="Item" Name="Item_scsw1" Parent="MaterialBase">
+		<ThingName>旁门金书</ThingName>
+        <MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_xinfeng</TexPath>	
+		<Desc>祖师自天界赐下的宝物，可以获得20本自天界收集的各种仙修旁门之法。</Desc>	
+		<Beauty>25</Beauty>
+		<Rate>12</Rate>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Treasure">
+		    <NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>金书</FabaoSuffix>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "100"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="打开" Story="Story_scsw1" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	
+</List></ThingDefs>
